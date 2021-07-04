@@ -1,10 +1,26 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+    <router-link to="/rome77">Rome 1977</router-link> |
+    <router-link to="/wembley78">Wembley 1978</router-link> |
+    <router-link to="/paris81">Paris 1981</router-link> |
+    <router-link to="/rome84">Rome 1984</router-link> |
+    <router-link to="/istanbul05">Istanbul 2005</router-link> |
+    <router-link to="/madrid19">Madrid 2019</router-link>
   <router-view />
+  <TheFooter />
+  </div>
 </template>
+
+<script>
+import TheFooter from '@/components/TheFooter.vue'
+
+export default {
+  components: {
+    TheFooter
+  }
+}
+</script>
 
 <style>
 #app {
@@ -15,9 +31,9 @@
   color: #2c3e50;
 }
 
-#nav {
+/* #nav {
   padding: 30px;
-}
+} */
 
 #nav a {
   font-weight: bold;
