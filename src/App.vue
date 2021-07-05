@@ -7,7 +7,7 @@
     <router-link to="/rome84">Rome 1984</router-link> |
     <router-link to="/istanbul05">Istanbul 2005</router-link> |
     <router-link to="/madrid19">Madrid 2019</router-link>
-  <router-view />
+  <router-view/>
   <TheFooter />
   </div>
 </template>
@@ -31,9 +31,9 @@ export default {
   color: #2c3e50;
 }
 
-/* #nav {
+#nav {
   padding: 30px;
-} */
+}
 
 #nav a {
   font-weight: bold;
@@ -42,5 +42,11 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.lineups {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
 }
 </style>
