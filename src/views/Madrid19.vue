@@ -32,15 +32,21 @@
       forward3="Harry Kane" 
       />
     </div>
+    <div class="lineups">
+      <substitutes subs="Simon Mignolet, Caoimhín Kelleher, Dejan Lovren, Joe Gomez, Alberto Moreno, James Milner, Adam Lallana, Alex Oxlade-Chamberlain, Xherdan Shaqiri, Daniel Sturridge, Rhian Brewster Divock Origi" />
+      <substitutes subs="Michel Vorm, Paulo Gazzaniga, Davinson Sánchez, Kyle Walker-Peters, Juan Foyth, Serge Aurier, Ben Davies, Erik Lamela, Victor Wanyama, Eric Dier, Lucas Moura, Fernando Llorente" />
+    </div>
   </div>
 </template>
 
 <script>
 import StartingLineup from '../components/StartingLineup.vue'
+import Substitutes from '../components/Substitutes.vue'
 
 export default {
   components: { 
-    StartingLineup 
+    StartingLineup,
+    Substitutes 
   }
 }
 </script>

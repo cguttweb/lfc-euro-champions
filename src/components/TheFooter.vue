@@ -16,7 +16,7 @@ export default {
 footer {
   background-color: rgb(7, 7, 63);
   color: rgb(255, 255, 255);
-  padding: 4rem 0;
+  padding: 0.5rem 0;
 }
 
 a {
