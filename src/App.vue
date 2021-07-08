@@ -31,6 +31,10 @@ export default {
   color: #2c3e50;
 }
 
+main {
+  min-height: 85vh;
+}
+
 #nav {
   padding: 30px;
 }
@@ -48,5 +52,9 @@ export default {
   display: flex;
   justify-content: center;
   padding: 0 2rem;
+}
+
+footer {
+  clear: both;
 }
 </style>

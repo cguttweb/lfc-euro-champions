@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>Built by <a href="https://github.com/cguttweb">Chloe</a> in 2021 with <a href="https://vuejs.org" rel="noopener"><img alt="Vue logo" src="../assets/logo.png" width="25" /></a></p>
+    Built by <a href="https://github.com/cguttweb">Chloe</a> in 2021 with <a href="https://vuejs.org" rel="noopener"><img alt="Vue logo" src="../assets/logo.png" width="25" /></a>
   </footer>
 </template>
 
@@ -16,7 +16,7 @@ export default {
 footer {
   background-color: rgb(7, 7, 63);
   color: rgb(255, 255, 255);
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
 }
 
 a {
